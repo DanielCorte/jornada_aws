@@ -1,1 +1,30 @@
+ANTES DA COMPUTAÇÃO EM NUVEM:
+  Modelo On-Premises (local)
+    Recursos são mantidos nas instalações da organização, exigindo investimentos em hardware e infraestrutura própria
+  OCIOSIDADE OU FALTA DE RECURSO!
 
+COM A COMPUTAÇÃO EM NUVEM
+  Modelo Cloud
+    Recursos são fornecidos pela internet, permitindo escalabilidade flexível e pagamento sob demanda, sem a necessidade de possuir hardware físico.
+      * Picos máximos
+      * Capacidade de recurso
+      * Armazenamento
+  FLEXIBILIDADE / PAGUE SOMENTE PELO USO
+
+MODELOS DE IMPLANTAÇÃO EM NUVEM
+  - Nuvem
+  - Modelo híbrido (nuvem e híbrido)
+  - On-premises
+
+DIFERENÇAS MODELO ON-PREMISES (LOCAL) E MODELO CLOUD
+
+Modelo On-Premises (local)                   Benefícios       | Modelo Cloud
+* Despesas fixas: Investir em recursos |  Economia de custos  | * Despesas variáveis: pague somente pelo uso (Opex)
+tecnológicos antes de usá-los (capex)
+
+* Manter datacenters                   | Foco nos crescimento | * Foco em aplicações e clientes
+
+* Dificuldade em prever suas necessi-  |     Elasticidade     | * Dimensione e escale conforme necessário
+dades de capacidade de infraestrutura 
+
+*
