@@ -18,13 +18,37 @@ MODELOS DE IMPLANTAÇÃO EM NUVEM
 
 DIFERENÇAS MODELO ON-PREMISES (LOCAL) E MODELO CLOUD
 
-Modelo On-Premises (local)                   Benefícios       | Modelo Cloud
-* Despesas fixas: Investir em recursos |  Economia de custos  | * Despesas variáveis: pague somente pelo uso (Opex)
+Modelo On-Premises (local)              |       Benefícios       | Modelo Cloud
+* Despesas fixas: Investir em recursos  |   Economia de custos   | * Despesas variáveis: pague somente pelo uso (Opex)
 tecnológicos antes de usá-los (capex)
 
-* Manter datacenters                   | Foco nos crescimento | * Foco em aplicações e clientes
+* Manter datacenters                    |  Foco nos crescimento  | * Foco em aplicações e clientes
 
-* Dificuldade em prever suas necessi-  |     Elasticidade     | * Dimensione e escale conforme necessário
+* Dificuldade em prever suas necessi-   |      Elasticidade      | * Dimensione e escale conforme necessário
 dades de capacidade de infraestrutura 
 
-*
+* Preços mais altos baseados em uso     |   Economia de Escala   | * Beneficie-se do uso conjunto do clientes
+
+* Semanas para obter recursos desejados | Velocidade e agilidade | * Minutos para obter recursos desejados
+* Estrutura local                       |    Global em minutos   | * Implemente rapidamente aplicações no mundo
+
+INFRAESTRUTURA GLOBAL:
+  América Norte: Oregon, N. California, Ohio, GovCloud (US-West), Canada (Central), GovCloud (US-East), N. Virginia
+  América do Sul: São Paulo
+  Europa: Irlanda, Londres, Espanha, Milão, Paris, Frankfurt, Stockholm
+  Africa: Cape Town
+  Oriente Médio: Bahrain, Mumbai
+  Asia: Beijing, Hong Kong SAR, Osaka, Tokyo, Seoul, Singapore, Indonesia
+  Oceania: Sydney
+
+REGIÕES:
+  Uma região é uma localização geográfica separada com vários locais isolados uns dos outros.
+  * Tem suporte para presença global da AWS
+  * Atende clientes em todo o mundo
+  * Expansão em ritmo acelerado com compromisso de longo prazo com a sustentabilidade
+
+ZONAS DE DISPONIBILIDADE:
+  - Partes totalmente isoladas da infraestrutura global da AWS
+  - Todas as zonas de disponibilidade são interconectadas com redes de alta largura de banda e baixa latência por meio de fibra dedicada
+    totalmente redundante
+  - Ajude os clientes a criar aplicativos altamente dependentes
