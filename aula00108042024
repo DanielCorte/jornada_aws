@@ -100,6 +100,29 @@ SERVIÇOS DE COMPUTAÇÃO DA AWS:
 
       Elasticidade com o EC2
   Período de baixa demanda | Período de alta demanda 
-      dois usuários        |      cinco usuários
+     \ dois usuários /     |   \  cinco usuários /
+      \             /           \               /
     se conectam ao server  |   se conectam ao server
+         |       |                |   |    |   |
   distribuido em 2 servers | distribuido em 4 servers
+
+  EXEMPLO DE APPLICATION LOAD BALANCER
+    O CPU envia para o ALB as demandas e ele distribui da melhor forma possível as tasks para as instâncias da EC2
+
+      ANALOGIA: EC2 COM AUTO SCALING + LOAD BALACING | Vamos supor que temos uma cafeteria
+        Cada caixa é uma instância EC2
+
+        Auto Scaling: aumenta/diminui o número de caixas (instância EC2) conforme demanda
+
+        Load Balancing: distribui as cargas para os caixas (instâncias EC2) sem fila.
+
+  AWS Lambda
+    Faça o upload do código para o Lambda
+     L Defina seu código para ser acionado de uma fonte de evento
+      L  O código é executado apenas quando acionado
+        L  Pague somente pelo tempo de computação que você usar
+
+  TESTE DE CONHECIMENTO: 
+    Computação
+
+      2
