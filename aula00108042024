@@ -122,7 +122,12 @@ SERVIÇOS DE COMPUTAÇÃO DA AWS:
       L  O código é executado apenas quando acionado
         L  Pague somente pelo tempo de computação que você usar
 
+  SERVIÇOS DE ARMAZENAMENTO DA AWS
+
   TESTE DE CONHECIMENTO: 
     Computação
 
-      2
+      2 - Verdadeiro ou falso: o Amazon EC2 é um serviço que oferece orquestração de contêineres altamente dimensional e de alto 
+          desempenho. Resposta: Verdadeiro
+
+
