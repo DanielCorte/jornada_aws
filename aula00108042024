@@ -165,4 +165,14 @@ SERVIÇOS DE COMPUTAÇÃO DA AWS:
                         Volume do Amazon EBS
 
       AMAZON ELASTIC FILE SYSTEM (EFS)
+        * Sistema de arquivos simples, dimensionável e totalmente gerenciado
+        * Dimensiona sob demanda para petabytes sem interromper os aplicativos
+        * Armazena dados entre uma ou várias zonas de disponibilidade 
+
+    TESTE DE CONHECIMENTO: armazenamento
+      3 - Qual serviço da AWS é a melhor opção para usar se você precisar de armazenamento em bloco de alto desempenho?
+        a) Amazon EBS
+        b) AWS EC2
+        c) Amazon S3
+
 
