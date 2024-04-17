@@ -171,8 +171,56 @@ SERVIÇOS DE COMPUTAÇÃO DA AWS:
 
     TESTE DE CONHECIMENTO: armazenamento
       3 - Qual serviço da AWS é a melhor opção para usar se você precisar de armazenamento em bloco de alto desempenho?
-        a) Amazon EBS
+        a) Amazon EBS - Correta
         b) AWS EC2
         c) Amazon S3
+
+      4 - Verdadeiro ou falso: O Amazon Elastic File System (EFS) só pode armazenar dados em uma única zona de disponibilidade
+        a) Verdadeiro
+        b) Falso - Correta
+
+  SERVIÇOS DE BANCO DE DADOS DA AWS
+
+    * Amazon Relational Database Service (Amazon RDS)
+      - Banco de dados relacional:
+          Um banco de dados relacional é um conjunto de informações que organiza dados em relações predefinidas, em que os dados são 
+          armazenados em uma ou mais tabelas (ou "relações") de colunas e linhas, facilitando a visualização e a compreensão de como 
+          as diferentes estruturas de dados se relacionam.
+          usados com mais frequência por organizações que precisam gerenciar grandes quantidades de dados estruturados, desde o 
+          rastreamento de inventário até o processamento de dados transacionais para a geração de registros de aplicativos.
+
+    * Amazon DynamoDB
+      - Banco de dados não relacional:
+          Um banco de dados não relacional é um banco de dados que não usa o esquema de tabela de linhas e colunas encontrado na 
+          maioria dos sistemas de banco de dados tradicionais.
+          Bancos de dados não relacionais são mais flexíveis e úteis para dados com requisitos variáveis. Você pode usá-los para 
+          armazenar imagens, vídeos, documentos e outros conteúdos semiestruturados e não estruturados.
+
+    * Banco de dados da AWS Serviço de migração (AWS DMS)
+      - Database Migration Service
+
+    AMAZON RELATIONAL DATABASE SERVICE (AMAZON RDS)
+      O Amazon RDS é um serviço de banco de dados relacional totalmente gerenciado
+        * Automatiza tarefas de administração demoradas 
+        * Seguro e compatível
+        * Fácil de administrar
+
+      Tipos de mecanismos do Amazon RDS:
+        Os tipos de mecanismo são otimizados para memória, desempenho ou E/S
+          * Amazon Aurora                          * MariaDB
+          * PostgreSQL                             * Oracle Database
+          * MySQL                                  * SQL Server
+
+        AMAZON RDS: PROVISIONAMENTO
+          * Implantação Multi-AZ para failover automatizado integrado
+              - O RDS Multi-AZ para o MySQL, Oracle e PostgreSQL utiliza a replicação física e síncrona para manter os dados da 
+                instância standby atualizados e idênticos aos dados da instância primária.
+
+          * Altos níveis de disponibilidade e confiabilidade 
+          * Use réplicas de leitura para cargas de trabalho do banco de dados com uso intenso de leitura
+
+      AMAZON DynamoDB
+        
+
 
 
