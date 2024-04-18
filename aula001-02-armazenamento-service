@@ -1,1 +1,49 @@
+SERVIÇOS DE ARMAZENAMENTO DA AWS
+    - Amazon Simple Storage Service (Amazon S3)
+    - Amazon Elastic Block Store (Amazon EBS)
+    - Amazon Elastic File System (Amazon EFS)
 
+      AMAZON SIMPLE STORAGE SERVICE (S3) - ARMAZENAMENTO DE OBJETOS
+        * Você pode armazenar e acessar qualquer tipo de dados pela internet
+        * É 99,999999999% durável
+        * Isso inclui uma grande variedade de classes de armazenamento econômicas
+
+        * Armazene arquivos nos BUCKETS
+        * Tenha suporte para uma variedade de casos de uso
+        * Acompanhe várias variantes de um objeto por meio do controle de versão
+        * Evite exclusões acidentais de objetos
+
+      AMAZON ELASTIC BLOCK STORE (EBS) - ARMAZENAMENTO EM BLOCO
+        * Armazenamento em bloco de alto desempenho
+        * Replicado em uma zona de disponibilidade para 99,999% de disponibilidade
+        * Aumente verticalmente em minutos
+        * Quatro tipos de volume para otimizar preço e desempenho
+
+        * SSD de uso geral
+        * SSD de IOPS provisionado
+        * Disco rígido com taxa de transferência otimizada
+        * HDD de baixa atividade (frio)
+
+          EXEMPLO DE AMAZON EBS
+
+          |----------------|         |----------------|
+          |Instância do EC2|         |Instância do EC2|
+          |----------------|         |----------------|
+                   |                          |
+        [ *  *  *  * * **  * ]     [ * *  *  * *   *  * ]
+                        Volume do Amazon EBS
+
+      AMAZON ELASTIC FILE SYSTEM (EFS)
+        * Sistema de arquivos simples, dimensionável e totalmente gerenciado
+        * Dimensiona sob demanda para petabytes sem interromper os aplicativos
+        * Armazena dados entre uma ou várias zonas de disponibilidade 
+
+    TESTE DE CONHECIMENTO: armazenamento
+      3 - Qual serviço da AWS é a melhor opção para usar se você precisar de armazenamento em bloco de alto desempenho?
+        a) Amazon EBS - Correta
+        b) AWS EC2
+        c) Amazon S3
+
+      4 - Verdadeiro ou falso: O Amazon Elastic File System (EFS) só pode armazenar dados em uma única zona de disponibilidade
+        a) Verdadeiro
+        b) Falso - Correta
