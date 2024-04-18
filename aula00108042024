@@ -129,7 +129,7 @@ SERVIÇOS DE COMPUTAÇÃO DA AWS:
       2 - Verdadeiro ou falso: o Amazon EC2 é um serviço que oferece orquestração de contêineres altamente dimensional e de alto 
           desempenho. Resposta: Verdadeiro
 
-  SERVIÇOS DE ARMAZENAMENTO DA AWS
+SERVIÇOS DE ARMAZENAMENTO DA AWS
     - Amazon Simple Storage Service (Amazon S3)
     - Amazon Elastic Block Store (Amazon EBS)
     - Amazon Elastic File System (Amazon EFS)
@@ -179,7 +179,7 @@ SERVIÇOS DE COMPUTAÇÃO DA AWS:
         a) Verdadeiro
         b) Falso - Correta
 
-  SERVIÇOS DE BANCO DE DADOS DA AWS
+SERVIÇOS DE BANCO DE DADOS DA AWS
 
     * Amazon Relational Database Service (Amazon RDS)
       - Banco de dados relacional:
@@ -220,7 +220,29 @@ SERVIÇOS DE COMPUTAÇÃO DA AWS:
           * Use réplicas de leitura para cargas de trabalho do banco de dados com uso intenso de leitura
 
       AMAZON DynamoDB
-        
+        * Banco de dados de documentos e valores-chave NoSQL rápido e flexível
+        * Sem servidores para serem gerenciados
+        * Desempenho de milissegundos de um dígito em qualquer escala
+
+      AWS Database Migration Service (DMS)
+        * Migre banco de dados para a AWS com facilidade e segurança
+        * Migre dados de e para os bancos de dados mais usados
+        * Mantenha a operação completa dos bancos de dados de origem durante a migração
+
+      TESTE DE CONHECIMENTO - BANCOS DE DADOS
+        5 - Qual serviço da AWS é a melhor opção para usar se você precisar de um banco de dados NoSQL sem servidor?
+          a) AWS DMS
+          b) Amazon DynamoDB - Resposta correta
+          c) Amazon RDS
+
+        6 - Qual serviço de banco de dados da AWS oferece suporte a vários mecanismos de banco de dados, incluindo Amazon Aurora,
+            MySQL e PostgreSQL?
+          a) AWS RDS - Resposta correta
+          b) AWS Lambda
+          c) Amazon S3
+
+
+
 
 
 
