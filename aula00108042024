@@ -241,6 +241,18 @@ SERVIÇOS DE BANCO DE DADOS DA AWS
           b) AWS Lambda
           c) Amazon S3
 
+  SERVIÇOS DE REDES E ENTREGA DE CONTEÚDO DA AWS
+    - Amazon Virtual Private Cloud (VPC)
+    - Amazon Route 53
+    - AWS Direct Connect
+    - Amazon CloudFront
+    - AWS Transit Gateway
+
+    AMAZON VIRTUAL PRIVATE CLOUD (VPC)
+      * Execute recursos da AWS em uma rede virtual definida por você
+      * Tenha controle total sobre seu ambiente de rede virtual
+      * Crie sub-redes e aproveite várias camadas de segurança
+
 
 
 
