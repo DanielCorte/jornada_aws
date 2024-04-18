@@ -1,1 +1,70 @@
+SERVIÇOS DE COMPUTAÇÃO DA AWS:
+  AMAZON ELASTIC COMPUTE CLOUD (Amazon EC2)
+  AMAZON EC2 Auto Scalling
+  Elastic Load Balancing
+  AMAZON ELASTICCONTAINER SERVICE (Amazon ECS)
+  AWS Lambda
 
+    COMPUTAÇÃO: Caso de uso
+      - Computação de alto desempenho
+      - Big data e análises
+      - Bare metal
+      - Armazenamento associado
+      - Redes avançadas
+  
+    AMAZON EC2:
+      * Capacidade computacional segura e redimensional
+      * Permite que você:
+        - Inicialize instâncias do servidor em minutos
+            Instâncias On-Demand
+            Instâncias spot
+            Instâncias reservadas
+        - Dimensione verticalmente a capacidade à medida que os requisitos de computação mudam
+      * Várias opções de preços para minimizar custos
+  
+    AMAZON EC2 Auto Scalling:
+      * Adiciona ou remove automaticamente instâncias do EC2 de acordo com as condições definidas por você
+      * Mantém a dispoibilidade do aplicativo
+      * Beneficie-se do scaling dinâmico e predetio
+      Exemplo de auto scalling: 
+        Você tem quatro instâncias destinadas a aguentar a quantidade de acesso ao seu produto, porém na maioria dos dias é necessário
+        menos do que isso pra rodar com 100% de eficiência, então você desliga por exemplo duas instâncias e usa apenas as necessárias
+        poupando assim mais dinheiro e recursos.
+          Eu tenho um mínimo de instâncias, o desejado, aumento a quantidade conforme necessário e tenho o máximo de expansão possível que
+          quero que meu servidor se adapte
+  
+    ELASTIC LOAD BALANCING:
+      * Distribui automaticamente o tráfego em vários recursos
+      * Atua como um único ponto de contato para seu grupo do Auto Scalling
+      * Distribui o tráfego em várias zonas de disponibilidade
+  
+        Elasticidade com o EC2
+    Período de baixa demanda | Período de alta demanda 
+       \ dois usuários /     |   \  cinco usuários /
+        \             /           \               /
+      se conectam ao server  |   se conectam ao server
+           |       |                |   |    |   |
+    distribuido em 2 servers | distribuido em 4 servers
+  
+    EXEMPLO DE APPLICATION LOAD BALANCER
+      O CPU envia para o ALB as demandas e ele distribui da melhor forma possível as tasks para as instâncias da EC2
+  
+        ANALOGIA: EC2 COM AUTO SCALING + LOAD BALACING | Vamos supor que temos uma cafeteria
+          Cada caixa é uma instância EC2
+  
+          Auto Scaling: aumenta/diminui o número de caixas (instância EC2) conforme demanda
+  
+          Load Balancing: distribui as cargas para os caixas (instâncias EC2) sem fila.
+  
+    AWS Lambda
+      Faça o upload do código para o Lambda
+       L Defina seu código para ser acionado de uma fonte de evento
+        L  O código é executado apenas quando acionado
+          L  Pague somente pelo tempo de computação que você usar
+  
+  
+    TESTE DE CONHECIMENTO: 
+      Computação
+  
+        2 - Verdadeiro ou falso: o Amazon EC2 é um serviço que oferece orquestração de contêineres altamente dimensional e de alto 
+            desempenho. Resposta: Verdadeiro
