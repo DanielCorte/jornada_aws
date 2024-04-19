@@ -314,8 +314,80 @@ SERVIÇOS DE BANCO DE DADOS DA AWS
              a) Amazon VPC
              b) Amazon Route 53 - Alternativa correta
              c) AWS Direct Connect
-                        
+        8 - Qual serviço da AWS é uma rede de entra rápida de conteúdo?
+             a) AWS Direct Connect
+             b) Amazon S3
+             c) Amazon CloudFront - Alternativa correta
 
+      PRINCIPAIS LIÇÕES
+        - Ampla seleção de serviços e funcionalidade aprofundada
+        - Pague somente pelos serviços que usar
+
+MODULO 3 - VISÃO GERAL DE SEGURANÇA E CONFORMIDADE
+
+  O que é segurança?
+    * Visibilidade
+    * Auditabilidade
+    * Controlabilidade
+    * Agilidade
+
+  MODELO DE RESPONSABILIDADE COMPARTILHADA
+    Cliente {
+              Dados do cliente;
+              Gerenciamento da plataforma, aplicativos, identidade e acesso;
+              Configuração de sistema operacional, rede e firewall;
+              Criptografia de dados no lado do cliente e autenticação de integridade de dados || Sistema de arquivos e/ou dados || Proteção do tráfego de rede (Criptografia/Integridade/Identidade
+    }
+
+    AWS {
+          Serviços básicos {
+                             Computação;
+                             Armazenamento;
+                             Banco de dados;
+                             Rede;
+          }
+          Infraestrutura global da AWS {
+                                         Regiões;
+                                         Zona de disponibilidade;
+                                         Locais de borda;
+          }
+      AWS: segurança DA nuvem
+        * Segurança fisica dos data centers      |  * Infraestrutura da rede
+        * Infraestrutura de hardware e software  |  * Infraestrutura de virtualização
+
+  SERVIÇOS DE SEGURANÇA DA AWS
+    * Gerenciamento de identidade e acesso
+    * Controle de detecção
+    * Proteção de infraestrutura
+    * Proteção de dados
+    * Conformidade
+
+      IDENTIFY AND ACESS MANAGEMENT
+        - AWS Identify and acess Management (IAM)
+        - AWS Identify Center
+
+      CONTROLE DE DETECÇÃO
+        - AWS Security hub
+        - Amazon GuardDuty
+        - Amazon Inspector
+
+      PROTEÇÃO DE INFRAESTRUTURA
+        - AWS Shield (ddos)
+        - AWS Web Aplication Firewall (WAF)
+        - AWS Firewall Manager
+
+      PROTEÇÃO DE DADOS
+        - AWS Key Management Service (KMS)
+        - AWS CloudHSM 
+        - AWS Certificate Manager (http(s))
+
+        AWS Identify and Acess Management (IAM)
+          * Controle o acesso a serviços e recursos da AWS
+          * Crie e gerencie usuários e grupos
+          * Ative a autenticação multifator (MFA) para uma segurança ainda maior
+
+                                      
+            Exemplos: Grupos <-- João --> S3
 
 
 
