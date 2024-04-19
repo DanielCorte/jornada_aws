@@ -253,6 +253,68 @@ SERVIÇOS DE BANCO DE DADOS DA AWS
       * Tenha controle total sobre seu ambiente de rede virtual
       * Crie sub-redes e aproveite várias camadas de segurança
 
+      EXEMPLO DESCRITVO:
+        Dentro da Nuvem AWS fica a Região
+        Dentro da Região fica o serviço de VPC 
+        Dentro do VPC fica a zona de disponibilidade 
+        Dentro da zona fica as instâncias (Tanto a sub-rede pública como a privada)
+
+        A internet pública terá contato apenas com instância da sub-rede pública
+        Enquanto a sub-rede privada será destinada para o data center corporativo
+
+        Analogia: VPC e Sub-redes:
+          Vamos voltar a cafeteria:
+
+          Os clientes fazem seus pedidos ao caixa. --> E o caixa passa o pedido ao barista --> Barista
+          Os clientes tentam fazer seus pedidos diretamente ao barista --> Barista
+
+          O Caixa nessa analogia é a sub-rede pública
+          O Barista é a sub-rede privada 
+
+          O VPC faz o controle de bloquear o contato dirente com o Barista, fazendo ele ter que contatar o Caixa primeiro
+
+    AMAZON ROUTE 53
+      O amazon Route 53 é um serviço da Web de DNS altamente disponível e dimensionável.
+        * Converte nomes de domínio em endereços IP numéricos
+        * Conecta solicitações de usuários à infraestrutura dentro e fora da AWS
+        * Roteia o tráfego para um destino íntegro
+
+        * Transfira registros DNS de nomes de domínio existentes 
+        * Registre novos nomes de domínio
+        * Garanta um alto nível de disponibilidade com vários servidores de nomes 
+
+        ROTEAMENTO DE TRÁFEGO
+
+          User --> https://subdomain.example.com --> DNS --> Route 53 ---(DNS--> [ELB] [..] [..]
+                                                                              Instâncias Amazon EC2
+
+    AWS DIRECT CONNECT
+      O AWS Direct Connect é uma conexão de rede dedicada das suas instalações até a AWS
+        * Reduza os custos de rede e aumente a taxa de transferência de largura de banda
+        * Particione a conexão em várias interfaces virtuais 
+
+    AMAZON CLOUD FRONT
+      * Fornece rapidamente conteúdo para clientes globalmente
+      * Integra-se perfeitamente aos serviços da AWS
+      * Não incorre em cobranças pelos dados transferidos entre as origens da AWS e o CloudFront
+      * Sem compromissos mínimos
+      * Pague somente pelo que usar
+      * Grandes variedades de casos de uso:
+        - Armazenamento em cache de ativos estáticos
+        - Streaming de vídeo
+        - Distribuição de software
+
+        COMO O AMAZON CLOUD-FRONT ENTREGA CONTEÚDO PARA OS USUÁRIOS
+          O arquivo de vídeo é enviado pelo Bucket do S3, O DNS encaminha a solicitação para o CloudFront POP (ponto de presença) 
+          que pode atender melhor à solicitação, normalmente o CloudFront POP mais próximo em termos de latência. CloudFront 
+          verifica seu cache em busca do objeto solicitado.
+
+      TESTE DE CONHECIMENTO: REDES
+        7 - Qual dos seguintes serviços da AWS é um serviço da Web de DNS altamente disponível e dimensionável?
+             a) Amazon VPC
+             b) Amazon Route 53 - Alternativa correta
+             c) AWS Direct Connect
+                        
 
 
 
