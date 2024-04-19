@@ -386,9 +386,69 @@ MODULO 3 - VISÃO GERAL DE SEGURANÇA E CONFORMIDADE
           * Crie e gerencie usuários e grupos
           * Ative a autenticação multifator (MFA) para uma segurança ainda maior
 
-                                      
-            Exemplos: Grupos <-- João --> S3
+                                      /->X EDS    
+            Exemplos: Grupos <-- João ---> S3
+                                      \->X RDS
+            S3 Acesso
+            L-> João
+            L-> x
+            L-> y
 
+            Exemplo: Organização de grupos do IAM
 
+                                                                  CONTA
+                               -------------------------------------|-----------------------------------------
+                               |                                                                              |
+                               V                                                                              V
+                    Grupos: Administradores                                                   Grupo: garantia de qualidade
+                               |                                                                              |
+         ---------------------------------------------                                  ---------------------------------------------
+         |                                            |                                 |                                            |
+         V                                            V                                 V                                            V
+        Jonn                                        Sofia                             Mateo                                         John
+         S3                                           S3                               EC2                                           EC2
 
+  Políticas de IAM
+    * Uma política do IAM é um documento que define permissões dentro da AWS
+    * Uma política é usada para permitir e negar ações específicas
+    * Prática recomendada: siga o princípio do menor privilégio
 
+  AUTENTICAÇÃO MULTIFATOR (MFA)
+    * Fornece uma camada adicional de proteção para a sua conta AWS
+    * Está disponível sem custo adicional
+    * Inclui opções para hardware MFA e dispositivos virtuais
+
+  AWS ARTIFACT
+    * Portal de autoatendimento para acesso sob demanda aos relatórios de conformidade da AWS
+    * Analise, aceite e gerencie seus contratos com a AWS
+    * Acesse relatórios de conformidade de auditores terceirizados
+        CONFORMIDADE DA AWS
+          - CJIS
+          - FISMA  
+          - HIPAA
+          - HITRUST (CSF Certified
+          - FedRAMP
+          - PCI (Participating Organization)
+          - FIPS
+          - CSA
+          - GXP
+          - ISO
+
+  TESTE DE CONHECIMENTO: responsabilidade da AWS ou responsabilidade do CLIENTE?
+    Configuração das regras do grupo de segurança que determinam quais portas estão abertas na instância Linux do EC2 - responsabilidade do CLIENTE
+    Prevenção contra sniffing de pacotes no nivel do hipervisor - responsabilidade da AWS
+    Aplicação de patches de segurança mais recentes no sistema operacional - responsabilidade do CLIENTE
+    Fragmentação das unidades de disco antes de saírem de um data center - responsabilidade da AWS
+    Proteção da rede interna dentro dos data centers da AWS - responsabilidade da AWS
+    Instalação de sistemas de câmeras para monitorar os data centers físicos - responsabilidade da AWS
+    A ativação dos recursos de criptografia para os volumes do EBS (Elastic Block Store) - responsabilidade do CLIENTE
+
+  TESTE DE CONHECIMENTO: IAM
+    Verdadeiro ou falso: em sua conta da AWS, você deve criar todas as suas políticas do IAM inicialmente
+      Verdadeiro
+      Falso - Alternativa correta
+
+  PRINCIPAIS LIÇÕES 
+    - Serviços de segurança abrangentes e flexíveis 
+    - A segurança é uma responsabilidade compartilhada
+    - Acesso sob demanda aos relatorios de conformidade
