@@ -1,1 +1,22 @@
+O que é um modelo cliente-servidor?
+  Na computação, um cliente pode ser um navegador da web ou uma aplicação de desktop com o qual uma pessoa interage para fazer solicitações 
+  a servidores de computador. Um servidor pode ser um serviço, como o Amazon Elastic Compute Cloud (Amazon EC2), um tipo de servidor virtual.
 
+  Por exemplo, suponha que um cliente faça uma solicitação de uma matéria jornalística, a pontuação em um jogo on-line ou um vídeo engraçado. 
+  O servidor avalia os detalhes dessa solicitação e a atende retornando as informações ao cliente.
+
+Modelos de implantação da computação em nuvem
+  Ao selecionar uma estratégia de nuvem, a empresa precisa considerar fatores como os componentes de aplicação de nuvem necessários, as 
+  ferramentas preferenciais para gerenciar recursos e os requisitos da infraestrutura de TI legada.
+
+  Os três modelos de implantação de computação em nuvem são computação baseada na nuvem, on-premises e híbrida. 
+
+    Implantação baseada na nuvem
+     * Execute todas as partes da aplicação na nuvem.
+     * Migre aplicações para a nuvem.
+     * Projete e crie novas aplicações na nuvem.
+
+      Em um modelo de implantação baseada na nuvem, você pode migrar aplicações para a nuvem ou projetar e criar novas aplicações na nuvem. 
+      Você pode criar essas aplicações em uma infraestrutura de baixo nível que precise do gerenciamento de sua equipe de TI. Você também 
+      pode criá-los usando serviços de nível superior que reduzem os requisitos de gerenciamento, arquitetura e scaling da infraestrutura 
+      principal.
