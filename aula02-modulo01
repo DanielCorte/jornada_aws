@@ -1,1 +1,133 @@
+O que é um modelo cliente-servidor?
+  Na computação, um cliente pode ser um navegador da web ou uma aplicação de desktop com o qual uma pessoa interage para fazer solicitações 
+  a servidores de computador. Um servidor pode ser um serviço, como o Amazon Elastic Compute Cloud (Amazon EC2), um tipo de servidor virtual.
 
+  Por exemplo, suponha que um cliente faça uma solicitação de uma matéria jornalística, a pontuação em um jogo on-line ou um vídeo engraçado. 
+  O servidor avalia os detalhes dessa solicitação e a atende retornando as informações ao cliente.
+
+Modelos de implantação da computação em nuvem
+  Ao selecionar uma estratégia de nuvem, a empresa precisa considerar fatores como os componentes de aplicação de nuvem necessários, as 
+  ferramentas preferenciais para gerenciar recursos e os requisitos da infraestrutura de TI legada.
+
+  Os três modelos de implantação de computação em nuvem são computação baseada na nuvem, on-premises e híbrida. 
+
+    Implantação baseada na nuvem
+     * Execute todas as partes da aplicação na nuvem.
+     * Migre aplicações para a nuvem.
+     * Projete e crie novas aplicações na nuvem.
+
+      Em um modelo de implantação baseada na nuvem, você pode migrar aplicações para a nuvem ou projetar e criar novas aplicações na nuvem. 
+      Você pode criar essas aplicações em uma infraestrutura de baixo nível que precise do gerenciamento de sua equipe de TI. Você também 
+      pode criá-los usando serviços de nível superior que reduzem os requisitos de gerenciamento, arquitetura e scaling da infraestrutura 
+      principal.
+
+   Implantação on-premises
+    * Implante recursos usando ferramentas de virtualização e gerenciamento de recursos.
+    * Aumente a utilização de recursos usando tecnologias de virtualização e gerenciamento de aplicações.
+
+      A implantação on-premises também é conhecida como implantação de nuvem privada. Nesse modelo, os recursos são implantados 
+      on-premises usando ferramentas de virtualização e gerenciamento de recursos.
+
+      Por exemplo, você poderia executar aplicações em tecnologia totalmente mantida no seu data center on-premises. Embora esse modelo 
+      seja muito parecido com a infraestrutura de TI legada, a incorporação de tecnologias de virtualização e gerenciamento de 
+      aplicativos ajuda a aumentar a utilização de recursos.
+
+   BENEFÍCIOS DA COMPUTAÇÂO EM NUVEM
+    Considere por que uma empresa adota determinada abordagem de computação em nuvem para atender às necessidades de negócios.
+
+      - Troque despesas iniciais por despesas variáveis
+          Despesas iniciais se referem a data centers, servidores físicos e outros recursos nos quais você precisaria 
+          investir antes de usá-los. Despesas variáveis significam que você paga apenas pelos recursos de computação 
+          que consumir em vez de investir muito em data centers e servidores antes de saber como usá-los.
+
+          Ao adotar uma abordagem de computação em nuvem com o benefício de despesas variáveis, as empresas podem implementar 
+          soluções inovadoras enquanto economizam custos.
+
+      - Pare de gastar dinheiro para executar e manter data centers
+          A computação em data centers costuma exigir que você gaste mais dinheiro e tempo gerenciando a infraestrutura 
+          e os servidores. 
+
+          Um benefício da computação em nuvem é poder se concentrar menos nessas tarefas e mais nas aplicações e clientes.
+
+      - Pare de tentar adivinhar a capacidade 
+          Com a computação em nuvem, você não precisa prever a capacidade de infraestrutura necessária antes de implantar uma aplicação. 
+
+          Por exemplo, você pode iniciar instâncias do Amazon EC2 quando necessário e pagar apenas pelo tempo de computação 
+          que usar. Em vez de pagar por recursos não usados ou ter que lidar com capacidade limitada, você pode acessar apenas a 
+          capacidade necessária. Você também pode aumentar ou reduzir a capacidade em resposta à demanda.
+
+      - Beneficie-se de grandes economias de escala
+          O uso da computação em nuvem permite obter um custo variável menor ao que você conseguiria por conta própria.
+
+          Como o uso de centenas de milhares de clientes pode ser agregado na nuvem, provedores como a AWS podem alcançar 
+          enormes economias de escala. A economia de escala se transforma em pagamento conforme o uso com preços mais baixos. 
+
+    - Aumentar a velocidade e a agilidade
+        A flexibilidade da computação em nuvem facilita o desenvolvimento e a implantação de aplicações.
+
+        Essa flexibilidade permite mais tempo para experimentar e inovar. Ao fazer a computação em data centers, pode 
+        levar semanas para obter os novos recursos de que você precisa. Em comparação, a computação em nuvem permite que 
+        você acesse novos recursos em poucos minutos. 
+
+    - Ter alcance global em minutos
+        A presença global da nuvem AWS permite que você implante aplicações para clientes em todo o mundo rapidamente, 
+        ao mesmo tempo que oferece baixa latência. Isso significa que, mesmo se você estiver em uma parte do mundo diferente 
+        de seus clientes, eles poderão acessar os seus aplicativos com atrasos mínimos. 
+
+       Mais adiante neste curso, você vai explorar a infraestrutura global da AWS em mais detalhes. Você examinará alguns 
+       dos serviços que pode usar para entregar conteúdo a clientes em todo o mundo. 
+
+Questionário do módulo 1
+
+  O que é computação em nuvem?
+    a) Faça backup de arquivos armazenados em dispositivos móveis e desktop para evitar a perda de dados
+
+    b) Implantação de aplicativos conectados à infraestrutura local
+
+    c) Execução de código sem a necessidade de gerenciar ou provisionar servidores
+
+    d) Fornecimento sob demanda de recursos e aplicações de TI pela internet com o modelo de pagamento conforme o uso | Correto 
+
+        Outras respostas, incorretas pois: 
+
+        *  É possível fazer backup de arquivos na nuvem, mas essa resposta não descreve a computação em nuvem como um todo.
+
+        *  A implantação de aplicações conectadas à infraestrutura on-premises é um exemplo de caso de uso para implantação 
+           de nuvem híbrida. Lembre-se de que a computação em nuvem também tem modelos de implantação em nuvem e 
+           on-premises (ou em nuvem privada).
+
+        *  O AWS Lambda é um serviço da AWS que permite executar códigos sem a necessidade de gerenciar ou provisionar servidores. 
+           Essa resposta não descreve a computação em nuvem como um todo. O AWS Lambda é explicado com mais detalhes posteriormente no curso.
+----------------
+    Qual é o outro nome para implantação on-premises?
+      a) Implantação de nuvem privada | Correta
+      b) Aplicativo baseado na nuvem
+      c) Implantação híbrida
+      d) Nuvem AWS
+
+          Outras respostas, incorretas pois:   
+
+            * Aplicações baseadas na nuvem são totalmente implantadas na nuvem e não têm partes executadas on-premises.
+
+            * Uma implantação híbrida conecta a infraestrutura e as aplicações entre os recursos baseados na nuvem e os 
+              recursos que não estão na nuvem, como aqueles on-premises. No entanto, uma implantação híbrida não equivale 
+              a uma implantação on-premises porque envolve recursos localizados na nuvem.
+
+            * A nuvem AWS oferece três modelos de implantação de nuvem: nuvem, híbrida e on-premises. Essa opção de resposta 
+              está incorreta porque a nuvem AWS não corresponde apenas a uma implementação on-premises.
+----------------
+    Como o scaling da computação em nuvem ajuda a economizar custos? 
+      a) Você não precisa investir em recursos de tecnologia antes de usá-los.
+      b) O uso agregado da nuvem por um grande número de clientes resulta em pagamento conforme o uso de preços mais baixos. | Correto
+      c) O acesso a serviços sob demanda ajuda a evitar capacidade excessiva ou limitada.
+      d) Você pode implantar aplicações rapidamente para os clientes e proporcionar baixa latência.
+
+          Outras respostas, incorretas pois:
+
+            * Não ter que investir em recursos de tecnologia antes de usá-los está relacionado a Trocar despesas iniciais por despesas variáveis.
+
+            * O acesso a serviços sob demanda ajuda a evitar capacidade excessiva ou limitada está relacionado a Parar de adivinhar a capacidade.
+
+            * A implantação rápida de aplicações para os clientes e a redução da latência estão relacionados a Ter alcance global em minutos.
+----------------
+O próximo módulo examina os serviços computacionais da AWS.
